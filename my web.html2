@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2개의 메뉴를 가진 웹 페이지</title>
+	<style>
+		/* 스타일 시트 */
+		nav {
+			display: flex;
+			justify-content: center;
+			background-color: #333;
+			color: white;
+			padding: 1em;
+		}
+
+		nav a {
+			color: white;
+			padding: 0.5em;
+			text-decoration: none;
+		}
+
+		nav a:hover {
+			background-color: white;
+			color: black;
+		}
+
+		nav ul {
+			display: flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav li {
+			margin: 0 1em;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<!-- 첫 번째 메뉴 -->
+		<ul>
+			<li><a href="https://www.google.com/">Google</a></li>
+		</ul>
+
+		<!-- 두 번째 메뉴 -->
+		<ul>
+			<li><a href="https://www.naver.com/">Naver</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
